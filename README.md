@@ -1,5 +1,10 @@
 # bootcamp-2025-day-1-welcome
+
 Welcoming remarks delivered by Rick Gilmore and Alaina Pearce at the 2025 Bootcamp.
+
+The slides are a single HTML file rendered from a Quarto source document using the RevealJS framework.
+
+To view the slides, visit <https://penn-state-open-science.github.io/bootcamp-2025-day-1-welcome/>
 
 ---
 

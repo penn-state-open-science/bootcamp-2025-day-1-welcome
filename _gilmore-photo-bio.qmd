@@ -1,0 +1,32 @@
+:::: {.columns}
+::: {.column width=50%}
+![](include/img/266px-DenverCP.JPG){height=150px fig-align="center"}
+![](include/img/brown_large.png){height=150px fig-align="center"}
+![](include/img/wash-monument.jpeg){height=150px fig-align="center"}
+
+:::
+::: {.column width=50%}
+![](include/img/cmu-logo.jpg){height=150px fig-align="center"}
+
+![](include/img/mt-nittany.png){height=150px fig-align="center"}
+
+![](include/img/sleic.png){height=150px fig-align="center"}
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width=50%}
+![https://databrary.org](../include/img/databrary-nav.svg){height=150px fig-align="center"}
+![https://play-project.org](include/img/PLAY-logo.png){height=150px fig-align="center"}
+![https://penn-state-open-science.github.io](include/img/psu-osi.png){height=150px fig-align="center"}
+:::
+::: {.column width=50%}
+![](https://acousticbrew.org/wp-content/uploads/2022/03/Acoustic-Brew-logo.jpg){height=150px fig-align="center"}
+
+![](include/img/next-stage-logo.jpg){height=150px fig-align="center"}
+
+![](https://w3tm.org/img/w3tm-qsl.png){height=150px fig-align="center"}
+:::
+::::
