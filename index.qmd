@@ -24,6 +24,14 @@ author: "Rick Gilmore & Alaina Pearce"
 
 # Schedule
 
+---
+
+```{r}
+#| label: fig-bootcamp-qr
+#| fig-cap: "https://penn-state-open-science.github.io/bootcamp-2025/"
+plot(qrcode::qr_code("https://penn-state-open-science.github.io/bootcamp-2025/"))
+```
+
 ## Today, Wednesday, Aug 13
 
 - [Morning](https://penn-state-open-science.github.io/bootcamp-2025/day-1.html#day_1_am)
@@ -63,9 +71,10 @@ author: "Rick Gilmore & Alaina Pearce"
 ## Thank you
 
 - Nancy English & Laureen Teti, Child Study Center
-- Child Study Center
-- ICDS
+- Child Study Center (CSC)
+- Institute for Computational & Data Sciences
 - Department of Statistics
 - University Libraries
-- Center for Social Data Analytics
+- Center for Social Data Analytics (SoDA)
+- Social Sciences Research Institute (SSRI)
 

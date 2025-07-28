@@ -145,15 +145,19 @@ Rick Gilmore &amp; Alaina Pearce
 <section id="section" class="slide level2" data-background-image="include/img/bootcamp-flyer.png">
 <h2></h2>
 </section>
+<section>
 <section id="agenda" class="title-slide slide level1 center">
 <h1>Agenda</h1>
+
+</section>
+<section class="slide level2">
+
 <ul>
 <li>Introductions</li>
 <li>Schedule</li>
 <li>Aims</li>
 </ul>
-</section>
-
+</section></section>
 <section>
 <section id="introductions" class="title-slide slide level1 center">
 <h1>Introductions</h1>
@@ -213,6 +217,12 @@ Rick Gilmore &amp; Alaina Pearce
 <h1>Schedule</h1>
 
 </section>
+<section class="slide level2">
+
+
+<img data-src="include/fig/fig-bootcamp-qr-1.png" width="960" class="r-stretch quarto-figure-center" id="fig-bootcamp-qr"><p class="caption">
+Figure&nbsp;1: https://penn-state-open-science.github.io/bootcamp-2025/
+</p></section>
 <section id="today-wednesday-aug-13" class="slide level2">
 <h2>Today, Wednesday, Aug 13</h2>
 <ul>
@@ -272,11 +282,12 @@ Rick Gilmore &amp; Alaina Pearce
 <h2>Thank you</h2>
 <ul>
 <li>Nancy English &amp; Laureen Teti, Child Study Center</li>
-<li>Child Study Center</li>
-<li>ICDS</li>
+<li>Child Study Center (CSC)</li>
+<li>Institute for Computational &amp; Data Sciences</li>
 <li>Department of Statistics</li>
 <li>University Libraries</li>
-<li>Center for Social Data Analytics</li>
+<li>Center for Social Data Analytics (SoDA)</li>
+<li>Social Sciences Research Institute (SSRI)</li>
 </ul>
 
 </section></section>
@@ -498,6 +509,44 @@ Rick Gilmore &amp; Alaina Pearce
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
