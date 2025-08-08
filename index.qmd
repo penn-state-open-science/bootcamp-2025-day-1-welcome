@@ -11,8 +11,20 @@ author: "Rick Gilmore & Alaina Pearce"
 ---
 
 - Introductions
-- Schedule
+- Motivation
 - Aims
+- Schedule
+- Inspiration
+
+## Thank you
+
+- Nancy English & Laureen Teti
+- Child Study Center (CSC)
+- Institute for Computational & Data Sciences
+- Department of Statistics
+- University Libraries
+- Center for Social Data Analytics (SoDA)
+- Social Sciences Research Institute (SSRI)
 
 # Introductions
 
@@ -21,6 +33,110 @@ author: "Rick Gilmore & Alaina Pearce"
 {{< include _gilmore-photo-bio.qmd >}}
 
 ## Alaina Pearce
+
+# Motivation
+
+## @Begley2012-cr
+
+>...Scientists in the haematology and oncology department at the biotechnology firm Amgen...tried to confirm published findings...[from] fifty-three...'landmark' studies.
+
+>...**findings were confirmed in only 6 (11%) cases**.
+
+>Even knowing the limitations of preclinical research, this was a shocking result.
+
+---
+
+{{< include _errington-bootcamp-2023.qmd >}}
+
+---
+
+![% of U.S. adults who said science has had a(n) ___ effect on society](https://www.pewresearch.org/science/wp-content/uploads/sites/16/2023/11/PS_2023.11.14_trust-in-scientists_00-01.png){#fig-sci-positive-effect}
+
+---
+
+![% of U.S. adults who say...](https://www.pewresearch.org/science/wp-content/uploads/sites/16/2023/11/PS_2023.11.14_trust-in-scientists_00-04.png){#fig-sci-worthwhile-for-society}
+
+<!-- <https://www.pewresearch.org/science/2023/11/14/americans-trust-in-scientists-positive-views-of-science-continue-to-decline/> -->
+
+---
+
+![@Houtkoop2018-tl Figure 2](include/img/houtkoop-etal-2018-fig02.jpeg){.scrollable}
+
+---
+
+![@Tenopir2020-mq](include/img/tenopir-2000-fig-xx.png){.scrollable}
+
+# Aims
+
+## @Feynman1974-ld
+
+::: columns
+::: {.column width="60%"}
+> "The first principle is that **you must not fool yourself---and you are the easiest person to fool**. So you have to be very careful about that. After you've not fooled yourself, it's easy not to fool other scientists."
+:::
+
+::: {.column width="40%"}
+![](include/img/Richard_Feynman_Nobel.jpg)
+:::
+:::
+
+## @Twain1997-hz
+
+:::: {.columns}
+::: {.column width=60%}
+>Courage is resistance to fear, *mastery* of fear—not *absence* of fear.
+:::
+::: {.column width=40%}
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Mark_Twain_by_AF_Bradley.jpg/330px-Mark_Twain_by_AF_Bradley.jpg)
+:::
+::::
+
+## If you have nothing to hide, hide nothing
+
+![](include/img/cuban-mark-hide-nothing.png){fig-align="center"}
+
+
+## Openness
+
+::: {.incremental}
+- Share data, code, materials, & protocols
+  - Openly (no prior approval or mandated collaboration)
+  - With explicit participant permission + formal data use agreements
+- Publish replications & null findings, complete protocols
+- Re-use and cite what others have shared
+- Prioritize getting it right
+:::
+
+## @Merton1973-vf
+
+:::: {.columns}
+::: {.column width=60%}
+::: {.incremental}
+- Communalism (common ownership)
+- Universalism (independent validity)
+- Disinterestedness (public benefit)
+- Organized skepticism (scrutinize everything)
+:::
+:::
+::: {.column width=40%}
+![](https://upload.wikimedia.org/wikipedia/en/0/08/Robert_K_Merton.jpg)
+:::
+::::
+
+## @Merton1973-vf
+
+:::: {.columns}
+::: {.column width=60%}
+>The mores of science possess a methodologic rationale...They are procedurally efficent...
+:::
+::: {.column width=40%}
+![](https://upload.wikimedia.org/wikipedia/en/0/08/Robert_K_Merton.jpg)
+:::
+::::
+
+---
+
+![https://teacherhead.com/2017/02/27/reinventing-the-wheel-again/](https://headguruteacher.files.wordpress.com/2017/02/9464b325-d2f4-4604-8258-82093bf93af6.jpg)
 
 # Schedule
 
@@ -31,22 +147,6 @@ author: "Rick Gilmore & Alaina Pearce"
 #| fig-cap: "https://penn-state-open-science.github.io/bootcamp-2025/"
 plot(qrcode::qr_code("https://penn-state-open-science.github.io/bootcamp-2025/"))
 ```
-
-## Today, Wednesday, Aug 13
-
-- [Morning](https://penn-state-open-science.github.io/bootcamp-2025/day-1.html#day_1_am)
-- [Afternoon](https://penn-state-open-science.github.io/bootcamp-2025/day-1.html#day_1_pm)
-
-## Thursday, Aug 14
-
-- [Morning](https://penn-state-open-science.github.io/bootcamp-2025/day-2.html#day_2_am)
-- [Afternoon](https://penn-state-open-science.github.io/bootcamp-2025/day-2.html#day_2_pm)
-
-## Friday, Aug 15
-
-- [Morning](https://penn-state-open-science.github.io/bootcamp-2025/day-3.html)
-
-# Aims
 
 ## Themes
 
@@ -64,17 +164,24 @@ plot(qrcode::qr_code("https://penn-state-open-science.github.io/bootcamp-2025/")
   - Questionable research practices
   - Early career panel
 
+## Today, Wednesday, Aug 13
+
+- [Morning](https://penn-state-open-science.github.io/bootcamp-2025/day-1.html#day_1_am)
+- [Afternoon](https://penn-state-open-science.github.io/bootcamp-2025/day-1.html#day_1_pm)
+
+## Thursday, Aug 14
+
+- [Morning](https://penn-state-open-science.github.io/bootcamp-2025/day-2.html#day_2_am)
+- [Afternoon](https://penn-state-open-science.github.io/bootcamp-2025/day-2.html#day_2_pm)
+
+## Friday, Aug 15
+
+- [Morning](https://penn-state-open-science.github.io/bootcamp-2025/day-3.html)
+
+
 ---
 
 {{< video https://youtu.be/N2zK3sAtr-4?si=idl1JJ1aerzsPyRg height="70%" width="100%" >}}
 
-## Thank you
-
-- Nancy English & Laureen Teti, Child Study Center
-- Child Study Center (CSC)
-- Institute for Computational & Data Sciences
-- Department of Statistics
-- University Libraries
-- Center for Social Data Analytics (SoDA)
-- Social Sciences Research Institute (SSRI)
+## References
 

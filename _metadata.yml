@@ -4,7 +4,7 @@ format:
     slide-number: true
     fig-align: center
     logo: https://brand.psu.edu/images/backgrounds/penn-state-shield.jpg
-    bibliography: [include/bib/packages.bib, include/bib/data-viz.bib]
+    bibliography: [include/bib/packages.bib, include/bib/data-viz.bib, include/bib/bootcamp-2025.bib]
     csl: include/bib/apa.csl
     css: include/css/gilmore-revealjs.css
     code-fold: true
