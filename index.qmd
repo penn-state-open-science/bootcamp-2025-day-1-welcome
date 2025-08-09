@@ -6,15 +6,13 @@ author: "Rick Gilmore & Alaina Pearce"
 
 ## {background-image="include/img/bootcamp-flyer.png"}
 
-# Agenda
-
----
+## Agenda
 
 - Introductions
 - Motivation
-- Aims
+- Inpsiration
 - Schedule
-- Inspiration
+- A cautionary tale
 
 ## Thank you
 
@@ -66,7 +64,7 @@ author: "Rick Gilmore & Alaina Pearce"
 
 ![@Tenopir2020-mq](include/img/tenopir-2000-fig-xx.png){.scrollable}
 
-# Aims
+# Inspiration
 
 ## @Feynman1974-ld
 
@@ -94,7 +92,6 @@ author: "Rick Gilmore & Alaina Pearce"
 ## If you have nothing to hide, hide nothing
 
 ![](include/img/cuban-mark-hide-nothing.png){fig-align="center"}
-
 
 ## Openness
 
@@ -179,9 +176,10 @@ plot(qrcode::qr_code("https://penn-state-open-science.github.io/bootcamp-2025/")
 - [Morning](https://penn-state-open-science.github.io/bootcamp-2025/day-3.html)
 
 
+# A cautionary tale
+
 ---
 
 {{< video https://youtu.be/N2zK3sAtr-4?si=idl1JJ1aerzsPyRg height="70%" width="100%" >}}
 
 ## References
-
