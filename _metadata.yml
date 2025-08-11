@@ -7,7 +7,7 @@ format:
     bibliography: [include/bib/packages.bib, include/bib/data-viz.bib, include/bib/bootcamp-2025.bib]
     csl: include/bib/apa.csl
     # css: include/css/gilmore-revealjs.css
-    theme: [default, include/css/psu.scss]
+    theme: [serif, include/css/psu.scss]
     mainfont: roboto
     code-fold: true
     code-tools: true

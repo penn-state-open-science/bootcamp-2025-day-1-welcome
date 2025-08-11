@@ -28,13 +28,18 @@ author: "Rick Gilmore & Alaina Pearce"
 
 # Introductions
 
----
+## Course Directors
 
-{{< include _gilmore-photo-bio.qmd >}}
+- Rick Gilmore
+- Alaina Pearce
 
-## Alaina Pearce
+<!-- --- -->
 
-## About us
+<!-- {{< include _gilmore-photo-bio.qmd >}} -->
+
+<!-- ## Alaina Pearce -->
+
+## Our initiative
 
 - [*Website*](https://penn-state-open-science.github.io){preview-link="true"}
 - [*Bootcamp 2023*](https://penn-state-open-science.github.io/bootcamp-2023){preview-link="true"}
@@ -104,7 +109,7 @@ author: "Rick Gilmore & Alaina Pearce"
 
 ![](include/img/cuban-mark-hide-nothing.png){fig-align="center"}
 
-## Openness
+## The alternative: Openness
 
 ::: {.incremental}
 - Share data, code, materials, & protocols
