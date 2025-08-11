@@ -1,6 +1,6 @@
 ---
 title: "Open Scholarship Bootcamp 2025"
-subtitle: "Welcoming Remarks"
+subtitle: "Day 1 Welcome"
 author: "Rick Gilmore & Alaina Pearce"
 ---
 
@@ -161,20 +161,19 @@ plot(qrcode::qr_code("https://penn-state-open-science.github.io/bootcamp-2025/")
   - Questionable research practices
   - Early career panel
 
-## Today, Wednesday, Aug 13
+## Today, Wednesday, August 13
 
-- [Morning](https://penn-state-open-science.github.io/bootcamp-2025/day-1.html#day_1_am)
-- [Afternoon](https://penn-state-open-science.github.io/bootcamp-2025/day-1.html#day_1_pm)
+- [Morning](https://penn-state-open-science.github.io/bootcamp-2025/day-1.html#day_1_am){preview-link="true"}
+- [Afternoon](https://penn-state-open-science.github.io/bootcamp-2025/day-1.html#day_1_pm){preview-link="true"}
 
-## Thursday, Aug 14
+## Thursday, August 14
 
-- [Morning](https://penn-state-open-science.github.io/bootcamp-2025/day-2.html#day_2_am)
-- [Afternoon](https://penn-state-open-science.github.io/bootcamp-2025/day-2.html#day_2_pm)
+- [Morning](https://penn-state-open-science.github.io/bootcamp-2025/day-2.html#day_2_am){preview-link="true"}
+- [Afternoon](https://penn-state-open-science.github.io/bootcamp-2025/day-2.html#day_2_pm){preview-link="true"}
 
-## Friday, Aug 15
+## Friday, August 15
 
-- [Morning](https://penn-state-open-science.github.io/bootcamp-2025/day-3.html)
-
+- [Morning](https://penn-state-open-science.github.io/bootcamp-2025/day-3.html){preview-link="true"}
 
 # A cautionary tale
 

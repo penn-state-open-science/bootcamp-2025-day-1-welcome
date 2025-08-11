@@ -6,7 +6,8 @@ format:
     logo: https://brand.psu.edu/images/backgrounds/penn-state-shield.jpg
     bibliography: [include/bib/packages.bib, include/bib/data-viz.bib, include/bib/bootcamp-2025.bib]
     csl: include/bib/apa.csl
-    css: include/css/gilmore-revealjs.css
+    # css: include/css/gilmore-revealjs.css
+    theme: [default, include/css/psu.scss]
     code-fold: true
     code-tools: true
     chalkboard: true
