@@ -8,9 +8,12 @@ format:
     csl: include/bib/apa.csl
     # css: include/css/gilmore-revealjs.css
     theme: [default, include/css/psu.scss]
+    mainfont: roboto
     code-fold: true
     code-tools: true
     chalkboard: true
+    link-external-icon: true
+    citations-hover: false
 knitr:
   opts_chunk:
     fig.path: include/fig/ 

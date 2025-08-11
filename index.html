@@ -49,7 +49,7 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-7cf2cba63f1424bdd320105dfd030b8d.css">
+  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-294bf593e7aa6d16811f6e719c8eeb1a.css">
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -169,22 +169,24 @@ Rick Gilmore &amp; Alaina Pearce
 <ul>
 <li>Introductions</li>
 <li>Motivation</li>
-<li>Inpsiration</li>
+<li>Inspiration</li>
 <li>Schedule</li>
 <li>A cautionary tale</li>
 </ul>
 </section>
 <section id="thank-you" class="slide level2">
 <h2>Thank you</h2>
+<div>
 <ul>
-<li>Nancy English &amp; Laureen Teti</li>
-<li>Child Study Center (CSC)</li>
-<li>Institute for Computational &amp; Data Sciences</li>
-<li>Department of Statistics</li>
-<li>University Libraries</li>
-<li>Center for Social Data Analytics (SoDA)</li>
-<li>Social Sciences Research Institute (SSRI)</li>
+<li class="fragment">Nancy English &amp; Laureen Teti</li>
+<li class="fragment">Child Study Center (CSC)</li>
+<li class="fragment">University Libraries</li>
+<li class="fragment">Institute for Computational &amp; Data Sciences</li>
+<li class="fragment">Social Sciences Research Institute (SSRI)</li>
+<li class="fragment">Department of Statistics</li>
+<li class="fragment">Center for Social Data Analytics (SoDA)</li>
 </ul>
+</div>
 </section>
 <section>
 <section id="introductions" class="title-slide slide level1 center">
@@ -239,6 +241,17 @@ Rick Gilmore &amp; Alaina Pearce
 </section>
 <section id="alaina-pearce" class="slide level2">
 <h2>Alaina Pearce</h2>
+</section>
+<section id="about-us" class="slide level2">
+<h2>About us</h2>
+<ul>
+<li><a href="https://penn-state-open-science.github.io" data-preview-link="true"><em>Website</em></a></li>
+<li><a href="https://penn-state-open-science.github.io/bootcamp-2023" data-preview-link="true"><em>Bootcamp 2023</em></a></li>
+<li><a href="https://penn-state-open-science.github.io/docs/posts/2025-04-08-oransky-talk.html" data-preview-link="true"><em>Sponsored talk</em></a></li>
+<li><a href="https://penn-state-open-science.github.io/docs/initiatives.html#journal-club" data-preview-link="true"><em>Journal club</em></a></li>
+<li>Data management workshops in <a href="https://penn-state-open-science.github.io/data-mgmt-2025/" data-preview-link="true">2025</a> and <a href="https://penn-state-open-science.github.io/data-mgmt-2024/" data-preview-link="true">2024</a></li>
+<li><a href="https://penn-state-open-science.github.io/survey-fall-2022/" data-preview-link="true">Survey</a></li>
+</ul>
 </section></section>
 <section>
 <section id="motivation" class="title-slide slide level1 center">
@@ -889,6 +902,8 @@ Twain, M. (1997). <em>The tragedy of <span>P</span>udd’nhead <span>W</span>ils
             if (link.dataset.originalHref !== undefined) {
               link.href = link.dataset.originalHref;
             }
+              // default icon
+              link.classList.add("external");
           }
         }
       function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -933,43 +948,6 @@ Twain, M. (1997). <em>The tragedy of <span>P</span>udd’nhead <span>W</span>ils
             return "";
           }
         });
-      }
-      const findCites = (el) => {
-        const parentEl = el.parentElement;
-        if (parentEl) {
-          const cites = parentEl.dataset.cites;
-          if (cites) {
-            return {
-              el,
-              cites: cites.split(' ')
-            };
-          } else {
-            return findCites(el.parentElement)
-          }
-        } else {
-          return undefined;
-        }
-      };
-      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-      for (var i=0; i<bibliorefs.length; i++) {
-        const ref = bibliorefs[i];
-        const citeInfo = findCites(ref);
-        if (citeInfo) {
-          tippyHover(citeInfo.el, function() {
-            var popup = window.document.createElement('div');
-            citeInfo.cites.forEach(function(cite) {
-              var citeDiv = window.document.createElement('div');
-              citeDiv.classList.add('hanging-indent');
-              citeDiv.classList.add('csl-entry');
-              var biblioDiv = window.document.getElementById('ref-' + cite);
-              if (biblioDiv) {
-                citeDiv.innerHTML = biblioDiv.innerHTML;
-              }
-              popup.appendChild(citeDiv);
-            });
-            return popup.innerHTML;
-          });
-        }
       }
     });
     </script>

@@ -10,19 +10,21 @@ author: "Rick Gilmore & Alaina Pearce"
 
 - Introductions
 - Motivation
-- Inpsiration
+- Inspiration
 - Schedule
 - A cautionary tale
 
 ## Thank you
 
+::: {.incremental}
 - Nancy English & Laureen Teti
 - Child Study Center (CSC)
-- Institute for Computational & Data Sciences
-- Department of Statistics
 - University Libraries
-- Center for Social Data Analytics (SoDA)
+- Institute for Computational & Data Sciences
 - Social Sciences Research Institute (SSRI)
+- Department of Statistics
+- Center for Social Data Analytics (SoDA)
+:::
 
 # Introductions
 
@@ -31,6 +33,15 @@ author: "Rick Gilmore & Alaina Pearce"
 {{< include _gilmore-photo-bio.qmd >}}
 
 ## Alaina Pearce
+
+## About us
+
+- [*Website*](https://penn-state-open-science.github.io){preview-link="true"}
+- [*Bootcamp 2023*](https://penn-state-open-science.github.io/bootcamp-2023){preview-link="true"}
+- [*Sponsored talk*](https://penn-state-open-science.github.io/docs/posts/2025-04-08-oransky-talk.html){preview-link="true"}
+- [*Journal club*](https://penn-state-open-science.github.io/docs/initiatives.html#journal-club){preview-link="true"}
+- Data management workshops in [2025](https://penn-state-open-science.github.io/data-mgmt-2025/){preview-link="true"} and [2024](https://penn-state-open-science.github.io/data-mgmt-2024/){preview-link="true"}
+- [Survey](https://penn-state-open-science.github.io/survey-fall-2022/){preview-link="true"}
 
 # Motivation
 
