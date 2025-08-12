@@ -30,8 +30,8 @@ author: "Rick Gilmore & Alaina Pearce"
 
 ## Bootcamp staff
 
-- [Directors](https://penn-state-open-science.github.io/bootcamp-2025/directors.qmd){preview-link="true"}
-- [Program Committee](https://penn-state-open-science.github.io/bootcamp-2025){preview-link="true"}
+- [Directors](https://penn-state-open-science.github.io/bootcamp-2025/directors.html){preview-link="true"}
+- [Program Committee](https://penn-state-open-science.github.io/bootcamp-2025/program-committee.html){preview-link="true"}
 
 <!-- --- -->
 
