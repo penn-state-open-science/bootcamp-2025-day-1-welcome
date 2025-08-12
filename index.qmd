@@ -28,10 +28,10 @@ author: "Rick Gilmore & Alaina Pearce"
 
 # Introductions
 
-## Course Directors
+## Bootcamp staff
 
-- Rick Gilmore
-- Alaina Pearce
+- [Directors](https://penn-state-open-science.github.io/bootcamp-2025/directors.qmd){preview-link="true"}
+- [Program Committee](https://penn-state-open-science.github.io/bootcamp-2025){preview-link="true"}
 
 <!-- --- -->
 
@@ -119,6 +119,24 @@ author: "Rick Gilmore & Alaina Pearce"
 - Re-use and cite what others have shared
 - Prioritize getting it right
 :::
+
+## After all...
+
+:::: {.columns}
+::: {.column width=50%}
+![](https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/4_3_1500w/public/WE%20ARE-223_0.jpg?h=ff5b6f8e&itok=v69zaktc)
+:::
+::: {.column width=50%}
+::: {.incremental}
+- Scholars!
+- Scholars...
+  - Gather & explore
+  - Weigh & measure
+  - Assess & evaluate
+  - Communicate & share
+:::
+:::
+::::
 
 ## @Merton1973-vf
 
