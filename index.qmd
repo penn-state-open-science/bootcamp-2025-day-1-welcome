@@ -2,6 +2,7 @@
 title: "Open Scholarship Bootcamp 2025"
 subtitle: "Day 1 Welcome"
 author: "Rick Gilmore & Alaina Pearce"
+institute: "Psychology & University Libraries"
 ---
 
 ## {background-image="include/img/bootcamp-flyer.png"}
@@ -81,6 +82,18 @@ author: "Rick Gilmore & Alaina Pearce"
 ![@Tenopir2020-mq](include/img/tenopir-2000-fig-xx.png){.scrollable}
 
 # Inspiration
+
+## @Feynman1974-ld
+
+:::: columns
+::: {.column width="60%"}
+>...the idea that we all hope you have learned in studying science in school...It’s a kind of scientific integrity, a **principle of scientific thought that corresponds to a kind of utter honesty**... 
+:::
+::: {.column width="40%"}
+![](include/img/Richard_Feynman_Nobel.jpg)
+:::
+::::
+
 
 ## @Feynman1974-ld
 
@@ -213,6 +226,20 @@ plot(qrcode::qr_code("https://penn-state-open-science.github.io/bootcamp-2025/")
 
 ---
 
-{{< video https://youtu.be/N2zK3sAtr-4?si=idl1JJ1aerzsPyRg height="70%" width="100%" >}}
+{{< video https://youtu.be/N2zK3sAtr-4?si=idl1JJ1aerzsPyRg height="80%" width="100%" >}}
+
+[@NYU_Health_Sciences_Library2013-gp]
+
+# Resources
+
+## About
+
+This talk was produced using [Quarto](https://quarto.org), using the [RStudio](https://posit.co/products/open-source/rstudio/)
+Integrated Development Environment (IDE), version 2025.5.1.513.
+
+The source files are in R and R Markdown, then rendered to HTML using the
+[revealJS](https://revealjs.com) framework. 
+The HTML slides are hosted in a [GitHub repo](https://github.com/penn-state-open-science/bootcamp-2025-day-1-welcome) and served by GitHub pages: 
+<https://penn-state-open-science.github.io/bootcamp-2025-day-1-welcome/>
 
 ## References

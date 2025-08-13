@@ -157,7 +157,10 @@
 <div class="quarto-title-author-name">
 Rick Gilmore &amp; Alaina Pearce 
 </div>
-</div>
+        <p class="quarto-title-affiliation">
+            Psychology &amp; University Libraries
+          </p>
+    </div>
 </div>
 
 </section>
@@ -346,6 +349,17 @@ Figure&nbsp;2: % of U.S. adults who say…
 <div class="columns">
 <div class="column" style="width:60%;">
 <blockquote>
+<p>…the idea that we all hope you have learned in studying science in school…It’s a kind of scientific integrity, a <strong>principle of scientific thought that corresponds to a kind of utter honesty</strong>…</p>
+</blockquote>
+</div><div class="column" style="width:40%;">
+<p><img data-src="include/img/Richard_Feynman_Nobel.jpg"></p>
+</div></div>
+</section>
+<section id="feynman1974-ld-1" class="slide level2">
+<h2><span class="citation" data-cites="Feynman1974-ld">Feynman (<a href="#/references" role="doc-biblioref" onclick="">1974</a>)</span></h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<blockquote>
 <p>“The first principle is that <strong>you must not fool yourself—and you are the easiest person to fool</strong>. So you have to be very careful about that. After you’ve not fooled yourself, it’s easy not to fool other scientists.”</p>
 </blockquote>
 </div><div class="column" style="width:40%;">
@@ -497,7 +511,18 @@ Figure&nbsp;3: https://penn-state-open-science.github.io/bootcamp-2025/
 </section>
 <section class="slide level2">
 
-<iframe data-external="1" src="https://www.youtube.com/embed/N2zK3sAtr-4?si=idl1JJ1aerzsPyRg" width="100%" height="70%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<iframe data-external="1" src="https://www.youtube.com/embed/N2zK3sAtr-4?si=idl1JJ1aerzsPyRg" width="100%" height="80%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><span class="citation" data-cites="NYU_Health_Sciences_Library2013-gp">(<a href="#/references" role="doc-biblioref" onclick="">NYU Health Sciences Library, 2013</a>)</span></p>
+</section></section>
+<section>
+<section id="resources" class="title-slide slide level1 center">
+<h1>Resources</h1>
+
+</section>
+<section id="about" class="slide level2">
+<h2>About</h2>
+<p>This talk was produced using <a href="https://quarto.org">Quarto</a>, using the <a href="https://posit.co/products/open-source/rstudio/">RStudio</a> Integrated Development Environment (IDE), version 2025.5.1.513.</p>
+<p>The source files are in R and R Markdown, then rendered to HTML using the <a href="https://revealjs.com">revealJS</a> framework. The HTML slides are hosted in a <a href="https://github.com/penn-state-open-science/bootcamp-2025-day-1-welcome">GitHub repo</a> and served by GitHub pages: <a href="https://penn-state-open-science.github.io/bootcamp-2025-day-1-welcome/" class="uri">https://penn-state-open-science.github.io/bootcamp-2025-day-1-welcome/</a></p>
 </section>
 <section id="references" class="slide level2 smaller scrollable">
 <h2>References</h2>
@@ -517,6 +542,9 @@ Houtkoop, B. L., Chambers, C., Macleod, M., Bishop, D. V. M., Nichols, T. E., &a
 </div>
 <div id="ref-Merton1973-vf" class="csl-entry" role="listitem">
 Merton, R. W. (1973). The normative structure of science. In R. K. Merton &amp; N. W. Storer (Eds.), <em>The <span>S</span>ociology of <span>S</span>cience: <span>T</span>heoretical and <span>E</span>mpirical <span>I</span>nvestigations</em> (pp. 267–278). The University of Chicago Press.
+</div>
+<div id="ref-NYU_Health_Sciences_Library2013-gp" class="csl-entry" role="listitem">
+NYU Health Sciences Library. (2013). <em>Data sharing and management snafu in 3 short acts (higher quality)</em>. Youtube. Retrieved from <a href="https://www.youtube.com/watch?v=66oNv_DJuPc">https://www.youtube.com/watch?v=66oNv_DJuPc</a>
 </div>
 <div id="ref-Tenopir2020-mq" class="csl-entry" role="listitem">
 Tenopir, C., Rice, N. M., Allard, S., Baird, L., Borycz, J., Christian, L., … Sandusky, R. J. (2020). Data sharing, management, use, and reuse: Practices and perceptions of scientists worldwide. <em>PloS One</em>, <em>15</em>, e0229003. <a href="https://doi.org/10.1371/journal.pone.0229003">https://doi.org/10.1371/journal.pone.0229003</a>
@@ -929,6 +957,43 @@ Twain, M. (1997). <em>The tragedy of <span>P</span>udd’nhead <span>W</span>ils
             return "";
           }
         });
+      }
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
+          }
+        } else {
+          return undefined;
+        }
+      };
+      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+      for (var i=0; i<bibliorefs.length; i++) {
+        const ref = bibliorefs[i];
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
+          });
+        }
       }
     });
     </script>

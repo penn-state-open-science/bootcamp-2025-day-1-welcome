@@ -12,7 +12,7 @@ format:
     code-tools: true
     chalkboard: true
     link-external-icon: true
-    citations-hover: false
+    citations-hover: true
 knitr:
   opts_chunk:
     fig.path: include/fig/
